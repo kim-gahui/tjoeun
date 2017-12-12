@@ -1,0 +1,150 @@
+@charset "UTF-8";
+<style>
+  *{margin: 0; padding: 0;}
+  li{list-style-type: none;}
+  a{text-decoration: none;}
+
+  body{
+    background-color: rgb(246, 239, 252);
+    background-image: url(images/hong_kong_night_by_re_bone.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  /*전체 레이아웃*/
+  .container{width: 800px; margin: 0 auto;}
+
+  /*헤더-로고*/
+  header{
+    padding: 20px 0 0 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+  header a{
+    color:#fff;
+    font-family: "나눔고딕";
+  }
+
+  .topmenu{
+    text-align: right;
+    padding-right: 10px; padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .topmenu a{padding: 5px;}
+
+  .topmenu a:hover{
+    color:#c6596d;
+  }
+
+  span{
+    color: #959393;
+  }
+
+  /*본문*/
+  section{
+    position: relative;
+    background-color: rgba(246, 239, 252, 0.5);
+    height: 1500px;
+    font-family: "나눔고딕";
+  }
+
+  ul{
+    width:350px; margin: 0 auto;
+    padding-top: 20px; padding-bottom: 20px;
+  }
+
+  ul li{
+    display: inline;
+  }
+
+  nav ul li a{
+  color:#000;
+  margin-right: 10px; margin-left: 2px;
+  font-weight: 900;
+  font-family: "나눔고딕";
+  }
+
+  ul li a:hover{color: #494c8c;
+  text-decoration: underline;  }
+
+  #active a{
+    text-decoration: underline;
+    color: #494c8c;
+  }
+
+  .line{border-top: 1px solid #8d869c;}
+
+  h2{
+    padding-top: 30px; padding-bottom: 30px;
+    text-align: center;
+    color: #494c8c;
+  }
+
+  /*폼 스타일*/
+  .form{
+    width: 400px;
+    margin : auto;
+    font-family: "나눔고딕";
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+  }
+
+  .form legend{
+    font-weight: bold;
+    padding: 20px;
+  }
+  .rowgroup, .row{
+    margin: 10px 15px 10px 16px;
+  }
+
+  input[type=checkbox]{
+    margin: 10px;
+  }
+  input[type=text]{
+    width: 180px;
+    height: 20px;
+  }
+
+  select{
+    height: 30px;
+  }
+
+  .btn_area{
+  width: 170px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+    }
+  input[type=submit], input[type=reset]{
+  width: 80px; height: 40px;
+  font-family: "나눔고딕";
+  font-weight: 900;
+  }
+  input[type=submit]{
+    background-color: #c6596d;
+  }
+  textarea{
+    width: 300px;
+    margin: 10px;
+  }
+
+  p{ padding: 40px;}
+
+  .imgs{
+    display: inline;
+    padding-left: 20px;
+    margin: 0 auto;
+  }
+
+  /* 바닥글 */
+  footer{
+    text-align: center;
+    /*margin-top: 50px; margin-bottom: 50px;*/
+    padding: 30px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#ccc;
+  }
+
+
+</style>

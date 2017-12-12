@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <link rel="stylesheet" href="layout.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><a href="">NIGHT SCENE <span>of</span> HONGKONG</a></h1>
+
+        <div class="topmenu">
+          <a href="">instagram</a>
+          <a href="">twitter</a>
+          <a href="">facebook</a>
+        </div>
+
+      </header>
+
+      <section>
+        <nav>
+          <ul>
+            <li><a href="">INFO</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="">MAP</a></li>
+            <li id="active"><a href="">RESERVATION</a></li>
+          </ul>
+        </nav>
+
+        <div class="line"></div>
+
+        <h2>RESERVATION</h2>
+
+        <article class="form">
+          <form action="" method="post">
+              <legend>BOOKING DETAILS</legend>
+              <div class="rowgroup">
+                <div class="row">
+                  <label for="name">Customer Name</label>
+                  <input type="text" id="name">
+                </div>
+                <div class="row">
+                  <label for="pax">No. of Pax.</label><br>
+                  <input type="checkbox" name="pax1" checked><label for="pax1">adult</label>
+                  <input type="text"><br>
+                  <input type="checkbox" name="pax2"><label for="pax2">child</label>
+                  <input type="text">
+                </div>
+                <div class="row">
+                  <label>Attractions. </label><br>
+                    <label><input type="checkbox" name="att">peak tram</label>
+                    <label><input type="checkbox" name="att">sky 100</label>
+                    <label><input type="checkbox" name="att">star ferry</label><br>
+                    <label><input type="checkbox" name="att">a symphony of lights</label>
+                </div>
+                <div class="row">
+                  <label for="year">Date.</label>
+                  <!-- select>option[value=]{$월}*12 -->
+                  <select>
+                    <option value="">월</option>
+                    <option value="">1월</option>
+                    <option value="">2월</option>
+                    <option value="">3월</option>
+                    <option value="">4월</option>
+                    <option value="">5월</option>
+                    <option value="">6월</option>
+                    <option value="">7월</option>
+                    <option value="">8월</option>
+                    <option value="">9월</option>
+                    <option value="">10월</option>
+                    <option value="">11월</option>
+                    <option value="">12월</option>
+                  </select>
+                  <!-- select>option[value=]{$일}*31 -->
+                  <select name="" id="">
+                    <option value="">일</option>
+                    <option value="">1일</option>
+                    <option value="">2일</option>
+                    <option value="">3일</option>
+                    <option value="">4일</option>
+                    <option value="">5일</option>
+                    <option value="">6일</option>
+                    <option value="">7일</option>
+                    <option value="">8일</option>
+                    <option value="">9일</option>
+                    <option value="">10일</option>
+                    <option value="">11일</option>
+                    <option value="">12일</option>
+                    <option value="">13일</option>
+                    <option value="">14일</option>
+                    <option value="">15일</option>
+                    <option value="">16일</option>
+                    <option value="">17일</option>
+                    <option value="">18일</option>
+                    <option value="">19일</option>
+                    <option value="">20일</option>
+                    <option value="">21일</option>
+                    <option value="">22일</option>
+                    <option value="">23일</option>
+                    <option value="">24일</option>
+                    <option value="">25일</option>
+                    <option value="">26일</option>
+                    <option value="">27일</option>
+                    <option value="">28일</option>
+                    <option value="">29일</option>
+                    <option value="">30일</option>
+                    <option value="">31일</option>
+                  </select>
+                </div>
+                <div class="row">
+                  <label for="email">Email</label>
+                  <input type="email" id="email">
+                </div>
+                <div class="row">
+                  <label for="info">Message</label><br>
+                <textarea name="" id="info" rows="10" cols="30"></textarea>
+                </div>
+              </div>
+
+              <div class="btn_area">
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+              </div>
+          </form>
+        </article>
+
+        <article>
+        <div id="content">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare purus vel luctus aliquam. Curabitur vel rutrum mi. Praesent pharetra sit amet lorem sit amet porta. Fusce nec sem placerat, finibus neque ut, consequat massa. Cras suscipit vestibulum urna nec egestas. Aliquam mattis sagittis scelerisque. Morbi vel erat lobortis, auctor est et, fermentum justo. Cras quis metus leo. Aenean ac maximus arcu.
+          <br><br>
+          Suspendisse enim odio, ultrices nec enim ac, venenatis dapibus lorem. Vivamus sed dolor consectetur, porttitor enim vel, varius enim. Cras cursus sagittis risus et iaculis. Fusce ut cursus tortor. Fusce in justo dapibus, condimentum ex hendrerit, laoreet tortor. Nullam a tincidunt neque. Sed fringilla nisl cursus, egestas urna ac, rhoncus leo. Nunc congue ultricies magna, ac lacinia arcu rutrum eget. Vestibulum ullamcorper urna a augue placerat placerat vel id ipsum. Praesent hendrerit elit eget risus ullamcorper, ut semper metus congue. Donec dictum neque neque. Mauris imperdiet elit quis arcu pharetra, non dictum dolor euismod. Integer non turpis eget orci vulputate iaculis.
+          </p>
+        </div>
+        </article>
+
+        <div class="imgs">
+          <a href=""><img src="images/lights.jpg" width="250px" height="150px" alt="A Symphony of Lights"></a>
+          <a href=""><img src="images/hong-kong.jpg" width="250px" height="150px" alt="hong-kong1"></a>
+          <a href=""><img src="images/hong_kong_night_by_re_bone.jpg" width="250px" height="150px" alt="hong-kong2"></a>
+        </div>
+      </section>
+
+      <footer>Copyright &copy; All rights reserved.</footer>
+    </div>
+  </body>
+</html>
