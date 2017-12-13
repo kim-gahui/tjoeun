@@ -49,6 +49,7 @@
     background-color: rgba(246, 239, 252, 0.5);
     height: 1500px;
     font-family: "나눔고딕";
+    overflow: hidden;
   }
 
   ul{
@@ -132,10 +133,11 @@
 
   p{ padding: 40px;}
 
-  .imgs{
-    display: inline;
-    padding-left: 20px;
-    margin: 0 auto;
+  article img{
+    width: 32%; height:150px;
+    padding: 2px;
+    margin-left: 5px;
+    float: left;
   }
 
   /* 바닥글 */
