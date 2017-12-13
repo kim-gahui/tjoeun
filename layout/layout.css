@@ -20,6 +20,7 @@
   header{
     padding: 20px 0 0 20px;
     background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
     }
   header a{
     color:#fff;
@@ -27,8 +28,8 @@
   }
 
   .topmenu{
-    text-align: right;
-    padding-right: 10px; padding-bottom: 10px;
+    position: absolute;
+    right: 0; bottom: 0;
     font-size: 14px;
   }
 
