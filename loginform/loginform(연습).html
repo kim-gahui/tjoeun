@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>loginform(연습)</title>
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Serif+Pro" rel="stylesheet">
+
+    <style>
+    /* common, reset */
+      *{margin: 0; padding: 0;}
+      li{list-style: none;}
+      a{
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff; font-size: 13px;
+      }
+      body, html{height: 100%; background: #ff6246;}
+      .all{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .skip{display: none; text-indent: -99999;}
+
+      /* 제목 */
+      h1{
+        font-family: 'Source Serif Pro', serif;
+        margin-top: 170px;
+        text-align: center;
+        color: #fff;
+      }
+      h1 .fa-wordpress{font-size: 2em; vertical-align: bottom;}
+      h1 span{font-size: 1.5em;}
+
+      form{
+        position: relative;
+        overflow: hidden;
+        width: 350px;
+        height: 220px;
+        background: rgba(255,255,255,0.5);
+        font-family: 'Open Sans', sans-serif;
+      }
+      form .row{
+        padding: 0 20px;
+        padding-top: 15px;
+        box-sizing: border-box;
+      }
+      form .row label{ display: block; font-weight: bold;}
+      form .row span{
+        float: left;
+        width: 40px; height: 30px; line-height: 30px;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-right: none;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 20px;
+      }
+      form .row input{
+        width: 270px; height: 30px;
+        border: 1px solid #ccc;
+        border-left: none;
+        box-sizing: border-box;
+      }
+      form .check{
+        padding-left: 20px;
+        margin-top: 10px;
+        font-size: 13px;
+      }
+      form .check #check{vertical-align: middle;}
+
+      form .login{
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+      }
+      form .login button{
+        border: none;
+        background: #000;
+        color: #fff;
+        width: 54px;
+        height: 22px;
+        cursor: pointer;
+      }
+
+      a{display: block; padding: 20px;}
+
+      .all ul{overflow: hidden; text-align: center;}
+      .all ul li{display: inline-block;}
+      .all ul li button{
+        width: 30px; height: 30px;
+        border: none; background: #fff;
+        cursor: pointer;
+      }
+      .all ul li button i{font-size: 1.5em;}
+
+      .twitter{}
+      .facebook{}
+      .go-plus{}
+      .instagram{}
+      .snapchat{}
+
+
+    </style>
+  </head>
+  <body>
+    <!-- 제목 -->
+    <h1>
+      <i class="fa fa-wordpress" aria-hidden="true"></i>
+      <span>W</span>ORD<span>P</span>RESS
+    </h1>
+
+    <div class="all">
+    <!-- 로그인 폼 -->
+      <form action="" method="post">
+        <div class="row">
+        <label for="idval">User Name</label>
+        <span>
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </span>
+        <input type="text" id="idval" placeholder="User Name">
+        </div>
+
+        <div class="row">
+        <label for="pwval">Password</label>
+        <span>
+          <i class="fa fa-key" aria-hidden="true"></i>
+        </span>
+        <input type="password" id="pwval" placeholder="Password">
+        </div>
+
+        <div class="check">
+          <input type="checkbox" id="check">
+          <label for="check">Remember Me</label>
+        </div>
+
+        <div class="login">
+          <button type="submit">Log In</button>
+        </div>
+      </form>
+
+    <!-- 로그인 폼 end -->
+
+    <!-- 비밀번호 찾기 -->
+    <a href="#">Lost your password?</a>
+
+    <!-- sns -->
+    <ul>
+      <li>
+        <button class="twitter">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </button>
+        <span class="skip">twitter</span>
+      </li>
+      <li>
+        <button class="facebook">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </button>
+        <span class="skip">facebook</span>
+      </li>
+      <li>
+        <button class="go-plus">
+          <i class="fa fa-google-plus" aria-hidden="true"></i>
+        </button>
+        <span class="skip">google plus</span>
+      </li>
+      <li>
+        <button class="instagram">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </button>
+        <span class="skip">instagram</span>
+      </li>
+      <li>
+        <button class="snapchat">
+          <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
+        </button>
+        <span class="skip">snapchat</span>
+      </li>
+    </ul>
+    </div>
+  </body>
+</html>

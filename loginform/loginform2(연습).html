@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>loginform2(연습)</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <style>
+      *{margin: 0; padding: 0;}
+      body, html{height: 100%;}
+      body{background: rgba(0, 0, 0, 0.5);}
+      .skip{display: none; text-indent: -999999; position: absolute;}
+      .box{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px; height: 400px;
+        background: #fff;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      h2, h5{text-align: center;}
+      h5{padding: 15px 0;  }
+
+      .box .top{
+        background: #085ab0;
+        color: #fff;
+        padding: 15px 0;
+      }
+
+      .box .sns{margin-top: 10px; text-align: center;}
+      .sns button{
+        border: none; background: none;
+        width: 40px; height: 40px;
+        margin: 0 10px;
+        font-size: 3em;}
+      .sns button.facebook{color: #0e79cb;}
+      .sns button.twitter{color: #02b7f0;}
+      .sns button.go-plus{color: #ec290d;}
+      .sns button i{}
+
+      .box .form{margin-top: 15px;}
+      .form h4{}
+      form{}
+      form input{
+        display: block;
+        width: 250px;
+        height: 30px;
+        margin: 0 25px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        text-indent: 5px;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+      }
+      form button{}
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="top">
+        <h2>Login</h2>
+      </div>
+      <div class="sns">
+        <h5>Login with social networks</h5>
+        <button type="button" class="facebook">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          <span class="skip">facebook</span>
+        </button>
+        <button type="button" class="twitter">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <span class="skip">twitter</span>
+        </button>
+        <button type="button" class="go-plus">
+          <i class="fa fa-google-plus-official" aria-hidden="true"></i>
+          <span class="skip">google plus</span>
+        </button>
+      </div>
+      <div class="form">
+        <h5>Or with an account</h5>
+        <form action="" method="post">
+          <input type="text" placeholder="ID">
+          <input type="password" placeholder="PASSWORD">
+          <button type="submit">LOGIN NOW</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
