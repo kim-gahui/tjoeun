@@ -108,6 +108,7 @@ section{padding-top: 70px;}
 /* footer============================= */
 footer{background: #282828; color: #ccc; text-align: center; padding: 20px 0; font-size: 0.8em;}
 footer .info{padding: 20px 0;}
+footer .info li{color: #ccc;}
 #btn-banner{display: none;}
 
 /* 모바일 */
