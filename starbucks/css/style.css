@@ -65,7 +65,11 @@ section{padding-top: 70px;}
 .main-ad .flavor .flavor1-text{padding: 20px;}
 
 /* product */
-.product{background: url(../images/main2.jpg) no-repeat center fixed; background-size: cover;}
+.product{background: url(../images/main2.jpg) no-repeat center fixed; background-size: cover; -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-attachment:scroll;}
 .product .product-info{padding: 20px 0; }
 .product .product-info a{color: #fff; padding: 10px; border: 2px solid #fff; border-radius: 3px;}
 .product .product-info .row > div:nth-child(1){text-align: right;}
@@ -86,7 +90,11 @@ section{padding-top: 70px;}
 .product .product-gallery ul li dl dd{text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
 
 /* reserve */
-.reserve{position: relative; background: url(../images/main3.jpg) no-repeat center fixed; background-size: cover;}
+.reserve{position: relative; background: url(../images/main3.jpg) no-repeat center fixed; background-size: cover;-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-attachment:scroll;}
 .reserve h2{text-align: center;color: #fff; padding-top: 20px; font-size: 2em; text-shadow: 0 0 10px #fff;}
 .reserve h2 sup{font-size: 0.5em;}
 .reserve .reserve-info{padding: 20px 0;}
@@ -97,11 +105,12 @@ section{padding-top: 70px;}
 .reserve .reserve-store{position: relative; height: 400px; }
 .reserve .reserve-store img{max-width: initial;}
 .reserve .reserve-store .rotate{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 334px; height: 334px;}
-.reserve .reserve-store .rotate > *{position: absolute;top: 50%; left: 50%; backface-visibility: hidden; transition: all 0.5s;}
+/* flip script로 교체 */
+/* .reserve .reserve-store .rotate > *{position: absolute;top: 50%; left: 50%; backface-visibility: hidden; transition: all 0.5s;}
 .reserve .reserve-store .rotate .front{transform: translate(-50%, -50%) rotateY(0deg); }
 .reserve .reserve-store .rotate .back{transform: translate(-50%, -50%) rotateY(180deg);}
 .reserve .reserve-store .rotate:hover .front{transform: translate(-50%, -50%) rotateY(180deg);}
-.reserve .reserve-store .rotate:hover .back{transform: translate(-50%, -50%) rotateY(0deg);}
+.reserve .reserve-store .rotate:hover .back{transform: translate(-50%, -50%) rotateY(0deg);} */
 .reserve .reserve-store .rotate .back a{position: absolute;bottom: 50px; left: 50%; transform: translateX(-50%); border: 1px solid #a26e49; color: #a26e49; padding: 10px 20px; border-radius: 3px; transition: all 0.2s;}
 .reserve .reserve-store .rotate .back a:hover{background: #a26e49; color: #fff;}
 
