@@ -52,7 +52,6 @@ body{
 .sprite.s-kakao{background-position: -100px 0;}
 .sprite.s-naver{background-position: -200px 0;}
 
-/* 배경 크기를 반으로 줄여서 사용할 때의 위치값 */
 .sprite.s-wifi{background-position: -150px 0;}
 .sprite.s-food{background-position: -200px 0;}
 .sprite.s-dt{background-position: -250px 0;}
