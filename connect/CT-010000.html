@@ -14,6 +14,7 @@
     <script src="js/index.js"></script>
   </head>
   <body>
+    <a href="#category" id="skip-nav">본문바로가기</a>
     <header>
       <div class="mobile">
         <img src="images/logo_m.png" alt="mobile logo">
@@ -92,7 +93,7 @@
           <div class="swiper-pagination"></div>
         </div>
       </article>
-      <article class="category">
+      <article class="category" id="category">
         <div class="center">
           <h1>CATEGORY</h1>
           <div class="menu">
@@ -193,10 +194,10 @@
               </div>
             </div>
             <button><i class="icon icon-play"></i></button>
-            <div class="next-clear"><span class="skip">다음 여백</span></div>
-            <div class="prev-clear"><span class="skip">이전 여백</span></div>
-            <div class="swiper-button-next"><i class="icon icon-right-open"></i></div>
-            <div class="swiper-button-prev"><i class="icon icon-left-open"></i></div>
+            <div class="next-clear"></div>
+            <div class="prev-clear"></div>
+            <div class="swiper-button-next"><i class="icon icon-right-open"></i><span class="skip">다음</span></div>
+            <div class="swiper-button-prev"><i class="icon icon-left-open"></i><span class="skip">이전</span></div>
           </div>
         </div>
       </article>

@@ -94,9 +94,14 @@ $(function(){
     $('header').addClass('on');
     $('body').append('<div class="bg"></div>');
   })
-  $('.mobile nav').on('click', function(){
+  $('.mobile nav').on('click', function(e){
+    e.preventDefault();
     $('header').removeClass('on');
     $('.bg').remove();
+  })
+
+  $('.btn-search, .category a, .keywords a, .mobile-interview a, .interview a, table a, footer a').on('click', function(e){
+    e.preventDefault();
   })
 
   $('#goTop').on('click', function(){

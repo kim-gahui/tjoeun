@@ -18,6 +18,8 @@ header .center nav ul li a:hover::after{width: 70%;}
 header .center nav ul li:last-child a::after{width: 0%;}
 header .center nav ul li:last-child a{border: 2px solid #fff; box-sizing: border-box; transition: all .5s;}
 header .center nav ul li:last-child a:hover{background: #fff; color: #1ebc3d;}
+#skip-nav{font-size: 0; position: fixed; top: -120px; left: 0; background: #000; color: #fff; padding: 15px;}
+#skip-nav:focus{font-size: 16px; top: 0;}
 /* section */
 .mobile-main-slide{display: none;}
 .main-slide{width: 100%; height: 655px;}
