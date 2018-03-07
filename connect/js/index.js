@@ -6,11 +6,13 @@ $(function(){
     $devWidth=$('body').width();
     if($devWidth < $limitSize){
       $('.btn-question').on('click',function(){
+        $('.qna input').val('');
         $('.qna').stop().toggle();
         $(this).find('i').toggleClass('icon-help icon-cancel');
       })
     }else{
       $('.btn-question').on('click',function(){
+        $('.qna input').val('');
         $('.qna').fadeIn();
       })
     }
@@ -78,10 +80,12 @@ $(function(){
       })
 
   $('header .join').on('click', function(){
+    $('.login_out input').val('');
     $('.login_out').toggle();
   });
 
   $('.mobile .icon-login').on('click', function(){
+    $('.mobile-login_out input').val('');
     $('.mobile-login_out').slideToggle(function(){$('body').after('<div class="bg"></div>')});
   });
 
