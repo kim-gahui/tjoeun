@@ -21,6 +21,10 @@ $(function(){
       el:'.mobile-main-slide .swiper-pagination',
       clickable:true,
     },
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
   });
 
   var mainSlide=new Swiper('.main-slide', {
@@ -28,6 +32,10 @@ $(function(){
       pagination:{
         el:'.main-slide .swiper-pagination',
         clickable:true,
+      },
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
       },
     });
 
@@ -39,6 +47,10 @@ $(function(){
         slidesPerView:3,
         spaceBetween: 40,
         loop:true,
+        autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
       })
 
   var interview=new Swiper ('.interview', {
@@ -47,6 +59,10 @@ $(function(){
         prevEl:'.interview .swiper-button-prev',
       },
       loop:true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
     })
 
     var mobiliInterview=new Swiper ('.mobile-interview', {
@@ -55,6 +71,10 @@ $(function(){
           prevEl:'.mobile-interview .swiper-button-prev',
         },
         loop:true,
+        autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
       })
 
   $('header .join').on('click', function(){
