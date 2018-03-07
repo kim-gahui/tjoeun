@@ -104,8 +104,8 @@ footer .web_info{padding-top: 35px;}
 .login_out h1{font-size: 30px; font-weight: bold;}
 .login_out .box{width: 560px ; margin: auto;}
 .login_out form{ margin: 40px auto; position: relative;}
-.login_out form input[type=text]{width: 100%;height: 75px;border-radius: 20px;border: 2px solid #e0e0e0;padding-left: 100px;box-sizing: border-box;font-size: 20px;color: #7c7c7c;}
-.login_out form input[type=text]{margin-bottom: 35px;}
+.login_out form input{width: 100%;height: 75px;border-radius: 20px;border: 2px solid #e0e0e0;padding-left: 100px;box-sizing: border-box;font-size: 20px;color: #7c7c7c;}
+.login_out form input{margin-bottom: 35px;}
 .login_out form .input_tab label{font-size: 55px;position: absolute;margin-left: 20px; color: #7c7c7c;margin-top: 10px;}
 .login_out form .input_tab label.change{color: #1ebc3d;}
 .login_out form .check_tab{text-align: right;font-size: 20px; line-height: 20px;}
@@ -244,7 +244,7 @@ footer .web_info{padding-top: 35px;}
   .email-login > button{display: block; margin: auto; width: 260px; height: 40px; border-radius: 10px; color: #fff; font-size: 15px; font-weight: bold;background: #5e5e5e;}
   .email-login form{position: relative; margin: 15px auto 35px; padding: 10px 40px 10px 35px;width: 260px; background: #e0e0e0; box-shadow: 5px 5px 5px rgba(0,0,0,0.45); box-sizing: border-box;}
   .email-login form .input_tab{text-align: left;}
-  .email-login form input[type=text]{width: 185px;height: 25px; margin: 5px 0;border-radius: 8px;border: 0;padding-left: 25px;box-sizing: border-box;font-size: 10px;color: #7c7c7c;}
+  .email-login form input{width: 185px;height: 25px; margin: 5px 0;border-radius: 8px;border: 0;padding-left: 25px;box-sizing: border-box;font-size: 10px;color: #7c7c7c;}
   .email-login form .input_tab label{position: absolute;font-size: 17px;margin-left: 4px;color: #7c7c7c;margin-top: 9px;}
   .email-login form .input_tab label.change{color: #1ebc3d;}
   .email-login .mobile-btn-login{position: absolute; top: 55px; right: 15px; width: 15px; height: 15px; background: #000; border-radius: 50%; color: #fff; font-size: 11px;}
