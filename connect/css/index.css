@@ -31,8 +31,7 @@ header .center nav ul li:last-child a:hover{background: #fff; color: #1ebc3d;}
 .main-slide .swiper-slide .contents-box form{margin-top: 60px; margin-right: 90px;}
 .main-slide .swiper-slide .contents-box form input{width: 560px; height: 60px; line-height: 60px; border-radius: 12px;border: 1px solid #fff;background: transparent; font-size: 19px;padding: 0 120px 0 10px;box-sizing: border-box;}
 .main-slide .swiper-slide .contents-box .btn-search{width: 120px; height: 60px; line-height: 60px; border-radius: 12px;border: 1px solid #fff; background: #1dbc3c; font-size: 25px; font-weight: bold; color: #fff;vertical-align: top;margin-left: -126px;}
-.main-slide .swiper-pagination{text-align: initial; }
-.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: 130px; left: 50%;}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: 50px;}
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 15px;}
 .main-slide .swiper-pagination-bullet{width: 20px; height: 20px; background: #1ebc3d; opacity: 1;}
 .main-slide .swiper-pagination-bullet-active{background: none; border: 4px solid #1ebc3d; box-sizing: border-box;}
